@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>המדריך המלא, 3 הכלים מהמפגש</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Heebo','Segoe UI','Arial Hebrew',Arial,sans-serif;
+    background:#FAF8F4;
+    color:#1A1A1A;
+    direction:rtl;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+  }
+  :root{
+    --purple:#A855F7;
+    --purple-light:#F3E8FF;
+    --purple-border:rgba(168,85,247,0.35);
+    --bg:#FAF8F4;
+    --white:#FFFFFF;
+    --text:#1A1A1A;
+    --muted:#666666;
+    --shadow:0 2px 16px rgba(0,0,0,0.07);
+  }
+  h1,h2,h3{font-weight:800;letter-spacing:-0.02em;margin:0;}
+  p{color:var(--muted);margin:0;}
+  .wrap{max-width:680px;margin:0 auto;padding:clamp(28px,6vw,64px) clamp(20px,5vw,32px) 80px;}
+  .tag{
+    display:inline-flex;align-items:center;gap:6px;
+    color:var(--purple);border:1.5px solid var(--purple);
+    border-radius:30px;padding:6px 18px;font-weight:700;
+    font-size:14px;width:fit-content;
+  }
+  .divider{width:48px;height:4px;background:var(--purple);border-radius:2px;margin:16px 0 20px 0;}
+  h1{font-size:clamp(28px,5vw,40px);}
+  .intro{font-size:18px;color:var(--text);margin-top:16px;max-width:56ch;}
+  .intro p+p{margin-top:10px;}
+
+  .tool{margin-top:56px;}
+  .tool-num{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:36px;height:36px;border-radius:50%;
+    background:var(--purple);color:var(--white);
+    font-weight:800;font-size:16px;flex:none;
+  }
+  .tool-head{display:flex;align-items:center;gap:12px;}
+  .tool h2{font-size:clamp(21px,3vw,27px);}
+  .tool .sub{color:var(--purple);font-weight:700;font-size:14px;margin-top:2px;}
+
+  .card{
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:14px;
+    padding:clamp(18px,3vw,26px);
+    box-shadow:var(--shadow);
+    margin-top:18px;
+  }
+  ol{margin:0;padding-inline-start:22px;display:flex;flex-direction:column;gap:12px;}
+  ol li{font-size:16px;color:var(--text);}
+  ol li b{font-weight:700;}
+
+  .highlight-box{
+    background:var(--purple-light);
+    border:1.5px solid var(--purple-border);
+    border-radius:14px;
+    padding:16px 20px;
+    font-weight:700;
+    color:var(--text);
+    font-size:15px;
+    margin-top:16px;
+  }
+  .highlight-box span{color:var(--purple);}
+
+  .free-note{
+    margin-top:12px;
+    font-size:14px;
+    color:var(--muted);
+  }
+  .free-note b{color:var(--text);}
+
+  .link-btn{
+    display:inline-block;
+    margin-top:16px;
+    background:var(--purple);
+    color:var(--white);
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+    padding:10px 22px;
+    border-radius:30px;
+  }
+
+  .closing{
+    margin-top:64px;
+    text-align:center;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:16px;
+    padding:clamp(24px,4vw,36px);
+    box-shadow:var(--shadow);
+  }
+  .closing h2{font-size:22px;}
+  .closing p{margin-top:10px;font-size:16px;}
+  .closing a{
+    display:inline-block;margin-top:18px;
+    background:var(--purple);color:var(--white);
+    text-decoration:none;font-weight:700;font-size:16px;
+    padding:12px 28px;border-radius:30px;
+  }
+  .footer-mark{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    margin-top:40px;font-weight:700;font-size:13px;color:var(--muted);
+  }
+  .footer-mark .dot{width:6px;height:6px;border-radius:50%;background:var(--purple);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">המתנה השנייה</span>
+  <div class="divider"></div>
+  <h1>המדריך המלא, 3 הכלים מהמפגש</h1>
+  <div class="intro">
+    <p>האמת? הכי הרבה זמן לא הולך על המשימה עצמה. הוא הולך על להתחיל.</p>
+    <p>אז הנה בדיוק מה שהראיתי הערב, שלב אחרי שלב, כדי שתפתחו את הכלי ותתחילו תוך דקה. שלושה כלים, שלושה משימות אמיתיות, בלי עלות.</p>
+  </div>
+
+  <div class="tool">
+    <div class="tool-head">
+      <span class="tool-num">1</span>
+      <div>
+        <h2>Gemini</h2>
+        <div class="sub">הזמנה בעברית ברורה ומפורטת</div>
+      </div>
+    </div>
+    <div class="card">
+      <ol>
+        <li><b>תפתחו את gemini.google.com</b> ותתחברו עם חשבון Google. אין צורך בהתקנה.</li>
+        <li><b>תכתבו בהודעה אחת את כל הפרטים של האירוע:</b> סוג האירוע, תאריך, שעה, מקום, ולמי זה מיועד. ככל שתפרטו יותר, ההזמנה תצא מדויקת יותר.</li>
+        <li><b>תוסיפו הנחיה על הטון:</b> חגיגי, מצחיק, קליל, רשמי. למשל "תכתוב הזמנה חגיגית עם קצת הומור".</li>
+        <li><b>תבקשו כמה גרסאות</b>, למשל "תן לי 3 אפשרויות שונות", ותבחרו את זו שהכי מדברת אליכם.</li>
+        <li><b>תבקשו עריכה נקודתית</b> עד שזה בדיוק כמו שרציתם: "תקצר", "תוסיף אימוג'י", "תוריד את המשפט האחרון".</li>
+      </ol>
+      <div class="highlight-box">טיפ: <span>תדביקו ל-Gemini הזמנה ישנה שאהבתם</span>, אפילו כתמונה. הוא ילמד מהסגנון שלה ויכתוב לכם בטון דומה.</div>
+      <div class="free-note"><b>עלות:</b> חינמי לחלוטין לשימוש כזה. יש מגבלת הודעות יומית בחשבון החינמי, שלא תרגישו בה בשימוש רגיל.</div>
+      <a class="link-btn" href="https://gemini.google.com" target="_blank" rel="noopener">לפתיחת Gemini</a>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="tool-head">
+      <span class="tool-num">2</span>
+      <div>
+        <h2>Canva</h2>
+        <div class="sub">כתוביות אוטומטיות לסרטון שבו אתם מדברים</div>
+      </div>
+    </div>
+    <div class="card">
+      <ol>
+        <li><b>תעלו את הסרטון ל-Canva</b>, בחשבון חינמי ב-canva.com, דרך "העלאות" בתפריט הצד.</li>
+        <li><b>תפתחו את הסרטון בעורך</b> ותחפשו בתפריט הצד "כתוביות" (Captions).</li>
+        <li><b>תלחצו על תמלול אוטומטי.</b> Canva יזהה את מה שנאמר בסרטון ויצור כתוביות מסונכרנות לבד.</li>
+        <li><b>תעברו על הכתוביות</b> ותתקנו מילים שלא זוהו נכון, בעיקר שמות ומונחים מקצועיים.</li>
+        <li><b>תבחרו עיצוב לכתוביות:</b> גופן, צבע, גודל ומיקום על המסך.</li>
+        <li><b>תורידו את הסרטון</b> (Export, כקובץ mp4) עם הכתוביות צרובות בתוך התמונה, מוכן להעלאה.</li>
+      </ol>
+      <div class="highlight-box">טיפ: <span>כתוביות מגדילות צפייה</span> משמעותית, כי הרוב צופים בלי קול. תמיד תוסיפו אותן לסרטונים שבהם אתם מדברים.</div>
+      <div class="free-note"><b>עלות:</b> חינמי בחשבון הבסיסי. יש מגבלת אורך ומספר סרטונים לתמלול אוטומטי בחודש בגרסה החינמית.</div>
+      <a class="link-btn" href="https://canva.com" target="_blank" rel="noopener">לפתיחת Canva</a>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="tool-head">
+      <span class="tool-num">3</span>
+      <div>
+        <h2>Lovable</h2>
+        <div class="sub">דף נחיתה לעסק שלכם</div>
+      </div>
+    </div>
+    <div class="card">
+      <ol>
+        <li><b>תפתחו את lovable.dev</b> ותתחברו עם חשבון Google.</li>
+        <li><b>בהודעה הראשונה תתארו את העסק שלכם:</b> למי זה מיועד, מה אתם מציעים, ומה אתם רוצים שהמבקר יעשה בדף, להשאיר פרטים, לתאם שיחה או לקנות.</li>
+        <li><b>תמתינו דקה.</b> Lovable בונה לכם דף שלם וחי, שאפשר לראות ולגלול בו מיד.</li>
+        <li><b>תבקשו שינויים בשפה חופשית,</b> ממש כמו שיחה: "תחליף את הצבע לסגול", "תוסיף כפתור ליצירת קשר למעלה", "תקצר את הטקסט הזה".</li>
+        <li><b>כשמרוצים, תפרסמו</b> (כפתור Publish) ותקבלו קישור חי לדף, מוכן לשליחה ללקוחות.</li>
+      </ol>
+      <div class="highlight-box">טיפ: <span>תתחילו ממשפט אחד ברור</span> על העסק ולא מרשימת דרישות ארוכה. קל יותר לתקן דף קיים מאשר לתאר הכל מראש.</div>
+      <div class="free-note"><b>עלות:</b> חינמי להתחלה. יש מכסת הודעות חודשית בחשבון החינמי, ואחריה עוברים לתשלום אם רוצים להמשיך לערוך.</div>
+      <a class="link-btn" href="https://lovable.dev" target="_blank" rel="noopener">לפתיחת Lovable</a>
+    </div>
+  </div>
+
+  <div class="closing">
+    <h2>ניסיתם משהו מהמדריך?</h2>
+    <p>אני ממש רוצה לראות. תשתפו בקבוצת הווטסאפ החינמית שלי, אני שם כל שבוע.</p>
+    <a href="https://chat.whatsapp.com/Bkm4aklzQB02Ddx6qTbdhk" target="_blank" rel="noopener">להצטרפות לקבוצה</a>
+  </div>
+
+  <div class="footer-mark"><span class="dot"></span>Simple Batel</div>
+</div>
+</body>
+</html>

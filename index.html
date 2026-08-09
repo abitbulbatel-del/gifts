@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>3 מתנות מהערב, Simple Batel</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;}
+  body{
+    font-family:'Heebo','Segoe UI','Arial Hebrew',Arial,sans-serif;
+    background:#FAF8F4;
+    color:#1A1A1A;
+    direction:rtl;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+    min-height:100%;
+    display:flex;
+    justify-content:center;
+  }
+  :root{
+    --purple:#A855F7;
+    --purple-light:#F3E8FF;
+    --purple-border:rgba(168,85,247,0.35);
+    --bg:#FAF8F4;
+    --white:#FFFFFF;
+    --text:#1A1A1A;
+    --muted:#666666;
+    --shadow:0 2px 16px rgba(0,0,0,0.07);
+  }
+  h1,h2{font-weight:800;letter-spacing:-0.02em;margin:0;}
+  p{color:var(--muted);margin:0;}
+  .wrap{width:100%;max-width:460px;padding:clamp(32px,8vw,56px) 20px 56px;text-align:center;}
+  .tag{
+    display:inline-flex;align-items:center;gap:6px;
+    color:var(--purple);border:1.5px solid var(--purple);
+    border-radius:30px;padding:6px 18px;font-weight:700;
+    font-size:14px;
+  }
+  .divider{width:48px;height:4px;background:var(--purple);border-radius:2px;margin:16px auto 20px;}
+  h1{font-size:clamp(26px,7vw,32px);}
+  .intro{font-size:16px;color:var(--text);margin-top:14px;}
+
+  .gifts{display:flex;flex-direction:column;gap:14px;margin-top:32px;}
+  .gift{
+    display:block;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:16px;
+    padding:20px 22px;
+    box-shadow:var(--shadow);
+    text-decoration:none;
+    color:var(--text);
+    text-align:right;
+    transition:transform .15s ease;
+  }
+  .gift:active{transform:scale(0.98);}
+  .gift .num{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:30px;height:30px;border-radius:50%;
+    background:var(--purple-light);color:var(--purple);
+    font-weight:800;font-size:14px;flex:none;
+  }
+  .gift-head{display:flex;align-items:center;gap:10px;}
+  .gift h2{font-size:19px;}
+  .gift p{margin-top:8px;font-size:14px;}
+  .gift .cta{
+    display:inline-block;margin-top:14px;
+    color:var(--purple);font-weight:700;font-size:14px;
+  }
+  .gift .cta::after{content:' ←';}
+
+  .bonus{
+    margin-top:28px;
+    font-size:14px;
+    color:var(--muted);
+  }
+  .bonus a{color:var(--purple);font-weight:700;text-decoration:none;}
+
+  .footer-mark{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    margin-top:48px;font-weight:700;font-size:13px;color:var(--muted);
+  }
+  .footer-mark .dot{width:6px;height:6px;border-radius:50%;background:var(--purple);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">מהערב שלנו</span>
+  <div class="divider"></div>
+  <h1>3 מתנות, בלי לשלם שקל</h1>
+  <p class="intro">היה ערב טוב. הנה שלושה דברים שלוקחים אתכם צעד קדימה מכאן.</p>
+
+  <div class="gifts">
+    <a class="gift" href="https://chat.whatsapp.com/Bkm4aklzQB02Ddx6qTbdhk" target="_blank" rel="noopener">
+      <div class="gift-head">
+        <span class="num">1</span>
+        <h2>קבוצת הווטסאפ החינמית</h2>
+      </div>
+      <p>כל שבוע, טיפ אחד שחוסך לכם זמן. בלי ספאם, בלי מכירות.</p>
+      <span class="cta">מצטרפים לקבוצה</span>
+    </a>
+
+    <a class="gift" href="guide-3-tools.html" target="_blank" rel="noopener">
+      <div class="gift-head">
+        <span class="num">2</span>
+        <h2>המדריך המלא, 3 הכלים מהערב</h2>
+      </div>
+      <p>כל מה שהראיתי הלילה, שלב אחרי שלב: הזמנה עם Gemini, כתוביות בקנבה, דף נחיתה עם Lovable.</p>
+      <span class="cta">לפתיחת המדריך</span>
+    </a>
+
+    <a class="gift" href="https://simple.fillout.com/ai" target="_blank" rel="noopener">
+      <div class="gift-head">
+        <span class="num">3</span>
+        <h2>מועדון ה-AI</h2>
+      </div>
+      <p>פעמיים בחודש, תוכן חם וכלים חדשים, באותה אווירה שהיה לנו הערב.</p>
+      <span class="cta">מצטרפים למועדון</span>
+    </a>
+  </div>
+
+  <p class="bonus">יש גם עוד המון תוכן חינמי באתר שלי, <a href="https://simple-batel.com" target="_blank" rel="noopener">simple-batel.com</a></p>
+
+  <div class="footer-mark"><span class="dot"></span>Simple Batel</div>
+</div>
+</body>
+</html>
